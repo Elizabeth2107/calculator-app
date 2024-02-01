@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Calculator App</title>
+    </head>
+
+
+    <body>
+    <input type="text" id="user-input" placeholder="0">
+    <br>
+    <div class="container">
+    <div class="first-btns">
+    <button onclick="resetBtn()">C</button>
+    <button>+/-</button>
+    <button>%</button>
+    <button onclick="divideBtn()" class="orange">÷</button>
+    </div>
+
+    <div class="second-btns">
+    <button onclick="sevenBtn()" class="grey-black">7</button>
+    <button onclick="eightBtn()" class="grey-black">8</button>
+    <button onclick="nineBtn()" class="grey-black">9</button>
+    <button onclick="multiBtn()" class="orange">x</button>
+    </div>
+
+    <div class="third-btns">
+    <button onclick="fourBtn()" class="grey-black">4</button>
+    <button onclick="fiveBtn()" class="grey-black">5</button>
+    <button onclick="sixBtn()" class="grey-black">6</button>
+    <button onclick="subBtn()" class="orange">-</button>
+    </div>
+    
+    <div class="fourth-btns">
+    <button onclick="oneBtn()" class="grey-black" value="1">1</button>
+    <button onclick="twoBtn()" class="grey-black">2</button>
+    <button onclick="threeBtn()" class="grey-black">3</button>
+    <button onclick="plusBtn()" class="orange">+</button>
+    </div>
+
+    <div class="last-btns">
+    <button onclick="zeroBtn()" class="grey-black">0</button>
+    <button class="grey-black">**</button>
+    <button onclick="commaBtn()"  class="grey-black">.</button>
+    <button onclick="equalBtn()" class="orange">=</button>
+    </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
